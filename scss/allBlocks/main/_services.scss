@@ -1,0 +1,72 @@
+.services {
+  margin-top: 50px;
+
+  &__content {
+    max-width: 952px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-family: "Mulish";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 26px;
+  }
+
+  &__line {
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    display: inline-block;
+    margin-bottom: 33px;
+  }
+
+  &__text {
+    font-family: "Mulish";
+    color: #7d7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  &__item {
+    box-shadow: 10px 40px 50px 0px #e5e9f666;
+    max-width: 350px;
+    border-radius: 20px;
+    padding: 54px 45px 46px 39px;
+  }
+
+  &__item--img {
+    margin-bottom: 22px;
+  }
+
+  &__item--title {
+    font-family: "Mulish";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    // margin-bottom: 15px;
+  }
+
+  &__item--text {
+    font-family: "Mulish";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #7d7987;
+  }
+}
